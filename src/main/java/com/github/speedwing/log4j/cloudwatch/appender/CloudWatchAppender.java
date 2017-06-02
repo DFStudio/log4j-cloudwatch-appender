@@ -151,7 +151,7 @@ public class CloudWatchAppender extends AppenderSkeleton {
       }
     } catch (Exception e) {
       if (log.isDebugEnabled()) {
-        log.error(e, e);
+        log.debug(e, e);
       }
     }
   }
